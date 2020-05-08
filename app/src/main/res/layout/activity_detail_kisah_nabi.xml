@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroundpd"
+    tools:context=".DetailKisahNabiActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/detail_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Nabi Adam AS"
+        android:textSize="29sp"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textColor="#000"/>
+
+
+    <TextView
+        android:id="@+id/detail_kisah"
+        android:layout_below="@+id/detail_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="ereka.Segala carwa serta mengampuni perbuatan pelanggaran yang mereka telah lakukan hal mana telah melegakan dada mereka dan menghilangkan rasa sedih akibat kelalaian peringatan Tuhan tentang Iblis sehingga terjerumus menjadi mangsa bujukan dan rayuannya yang manis namun berancun itu. "
+        android:textSize="15sp"
+        android:fontFamily="casual"
+        android:textColor="#000"
+        android:layout_margin="15dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

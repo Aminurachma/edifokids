@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unta"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:id="@+id/linkisah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+            <Button
+                android:id="@+id/kisahnabi"
+                android:layout_width="70dp"
+                android:layout_height="75dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/script" />
+
+            <TextView
+                android:id="@+id/txkisah"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="Kisah Kisah Nabi"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:fontFamily="casual"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lindoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/doapendek"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/mosque"
+                />
+
+            <TextView
+                android:id="@+id/txdoa"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Doa doa Pendek"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="casual"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:id="@+id/linasmaul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/asmaulhusna"
+                android:layout_width="72dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/qurr" />
+
+            <TextView
+                android:id="@+id/txasmaul"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:text="Asmaul Husna"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:fontFamily="casual" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
